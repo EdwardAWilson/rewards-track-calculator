@@ -1,0 +1,46 @@
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+
+.env
+.env.backup
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Vendor Packages
+/vendor
+/public/packages
+
+# Generated asset files
+/public/css/app.css
+/public/js/app.js
+/public/js/app.js.LICENSE.txt
+/public/mix-manifest.json
+
+# IDEs
+.idea/
+_ide_helper*
+.phpstorm.meta.php
+*.sublime-workspace
+nbproject/
+.*.s[a-w][a-z]
+*~
+.*~
+
+# Mac OS X
+._*
+.AppleDouble
+.DS_Store
+.LSOverride
+.Spotlight-V100
+.Trashes
+Icon?
+.fuse*
+
+# Windows
+ehthumbs.db
+Thumbs.db
