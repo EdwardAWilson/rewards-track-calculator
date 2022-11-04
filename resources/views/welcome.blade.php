@@ -24,7 +24,7 @@
         Hearthstone Rewards Track Calculator
         <br/>
         <br/>
-        <form>
+        <form action="{{ route('results.index') }}">
             <label for="currentDay">What day is it: </label>
             <input type="date" id="currentDay" name="currentDay">
             <br/>
