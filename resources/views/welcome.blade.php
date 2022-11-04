@@ -22,5 +22,51 @@
     </head>
     <body class="antialiased">
         Hearthstone Rewards Track Calculator
+        <br/>
+        <br/>
+        <form>
+            <label for="currentDay">What day is it: </label>
+            <input type="date" id="currentDay" name="currentDay">
+            <br/>
+
+            <label for="expansionDay">What day is the next expansion: </label>
+            <input type="date" id="expansionDay" name="expansionDay">
+            <br/>
+
+            <label for="currentLevel">What is your current level: </label>
+            <input type="text" id="currentLevel" name="currentLevel">
+            <br/>
+
+            <label for="targetLevel">What is your target level: </label>
+            <input type="text" id="targetLevel" name="targetLevel">
+            <br/>
+
+            <label for="tavernPass">Do you have the tavern pass: </label>
+            <input type="checkbox" id="tavernPass" name="tavernPass">
+            <br/>
+
+            <label for="bigWeeklyQuests">How many big weekly quests do you do per week: </label>
+            <input type="text" id="bigWeeklyQuests" name="bigWeeklyQuests">
+            <br/>
+
+            <label for="smallWeeklyQuests">How many small weekly quests do you do per week: </label>
+            <input type="text" id="smallWeeklyQuests" name="smallWeeklyQuests">
+            <br/>
+
+            <label for="dailyQuests">How many daily quests do you do per week: </label>
+            <input type="text" id="dailyQuests" name="dailyQuests">
+            <br/>
+
+            <label for="rankedPlaytime">How many hours of ranked do you play per day: </label>
+            <input type="text" id="rankedPlaytime" name="rankedPlaytime">
+            <br/>
+
+            <label for="otherPlaytime">How many hours of non-ranked do you play per day: </label>
+            <input type="text" id="otherPlaytime" name="otherPlaytime">
+            <br/>
+
+            <input type="submit">
+        </form>
+
     </body>
 </html>
